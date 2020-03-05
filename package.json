@@ -1,0 +1,26 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "From the command-line this application will allow users to: add departments, roles, employees. View departments, roles, employees and update employee roles as well",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algarran/employeetracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algarran/employeetracker/issues"
+  },
+  "homepage": "https://github.com/algarran/employeetracker#readme",
+  "dependencies": {
+    "figlet": "^1.3.0",
+    "inquirer": "^7.0.6",
+    "mysql": "^2.18.1"
+  }
+}
